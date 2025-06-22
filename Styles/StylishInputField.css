@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+#inputField {
+    width: 100%;
+    height: 70vh;
+    display: flex; /* Flexbox */
+    justify-content: center; /* Horizontally center */
+    align-items: center;     /* Vertically center */
+    background-color: #bfbfbf;
+}
+
+#topic{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-family: cursive;
+    color: #ff005c;
+    background-color: black;
+}
+#topic h1{
+    margin: 0;
+    padding: 15px 0;
+}
+
+input::placeholder {
+    font-size: .9rem;
+}
+
+input {
+    all: unset;
+    padding: 15px;
+    border-radius: 12px;
+    border: 2px solid transparent;
+    box-shadow: 0 2px 2px 2px rgba(0,0,0,0);
+    transition: border .3s ease-in-out;
+    color: black;
+}
+input:focus{
+    border-color: #aa00ff;
+}
+h3{
+    padding-right: 10px;
+}
