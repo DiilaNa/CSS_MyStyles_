@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            overflow: hidden;
+        }
+        #container{
+            display: flex;
+            align-items: center;
+            justify-content:center;
+            height: 100vh;
+            gap: 25px;
+        }
+        div{
+            width: 300px;
+            height: 200px;
+            background-color: #000000;
+        }
+        #firstDIV{
+            border-radius: 0;
+        }
+        #secondDIV{
+            border-radius: 30px;
+        }
+        #thirdDIV{
+            border-radius: 100%;
+        }
+        #fourthDIV{
+            border-radius: 30px 60px;
+        }
+        #fifthDIV{
+            border-radius: 10px 60px 30px;
+        }
+        #sixthDIV{
+            border-radius: 10px 30px 60px 120px;
+        }
+    </style>
+</head>
+<body>
+<section id="container">
+    <div id="firstDIV"></div>
+    <div id="secondDIV"></div>
+    <div id="thirdDIV"></div>
+    <div id="fourthDIV"></div>
+    <div id="fifthDIV"></div>
+    <div id="sixthDIV"></div>
+</section>
+</body>
+</html>
